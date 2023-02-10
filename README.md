@@ -6,5 +6,5 @@ parameters as data. Passes forward layers of perceptrons with mathematical expre
 by the loss function, which measure the accuracy of our predictions. We manipulate the loss function
 so when it is low, the network is behaving like we want it to. We back-propagate the loss to get the
 gradient and we iterate gradient descent to lower our loss. Neural networks are the idea behind chatgpt any many other AI models. They take billions of parameters
-online to compute their result. Although my function only has 41 parameters >:), the neural network
+and training examples online. Although my function only has 41 parameters >:), the neural network
 foundation is there.    NOTE: Used Graphviz for visualization and Pytorch like an interface, props to Andrej Karpathy who made this possible with his awesome lectures.
