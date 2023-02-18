@@ -2,6 +2,8 @@
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
         "sstream": "c",
-        "knight": "c"
+        "knight": "c",
+        "optional": "c",
+        "system_error": "c"
     }
 }
