@@ -1,0 +1,27 @@
+A minimum spanning tree is a tree in which each edge
+is a minimum weight edge. The minimum spanning tree
+gets rid of cycles and preserves only the minimum
+weight edges while still maintaining all the vertices.
+
+In single source shortest path, the graph is directed
+and the overall goal is different. While in MST, we 
+want to reach all vertices with the minimum amount
+of total weight in our graph, in SSSP the goal is 
+to reach the destination vertex with the minimum
+amount of total weight.
+
+A cut in a graph is a partition of the vertices into two disjoint sets. 
+A light edge is an edge that has the minimum weight among all 
+the edges crossing the cut. A safe edge is an edge that can be added to the current 
+partial solution of an MST algorithm without creating a cycle.
+
+They are greedy algorithms as we always start building
+our path with the minimum weight edges in ascending order
+
+
+Both algorithms are guaranteed to find the optimal solution to the MST problem. 
+There is only one unique MST for a given graph, but there may be multiple ways to construct it.
+
+
+
+
